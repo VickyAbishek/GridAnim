@@ -16,6 +16,9 @@ background-color: green;
 	border: 2px solid red;
 }
 
-#b1{
+.button{
+	color:blue;
+}
+.b1{
 	color: red;
 }
