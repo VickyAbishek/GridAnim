@@ -1,0 +1,21 @@
+.square{
+	
+	height: 108px;
+	width: 108px;
+	border: 2px solid black;
+	display: inline-block;
+}
+.col{
+background-color: green;
+}
+
+.main-div{
+	width: 324px;
+	height: 324px;
+	display: table; 	
+	border: 2px solid red;
+}
+
+#b1{
+	color: red;
+}
