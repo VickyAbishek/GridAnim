@@ -2,22 +2,18 @@
 <html>
 <head>
 	<script src="js/jquery-3.1.1.js" ></script>
-
 	<script type="text/javascript" src="js/application.js" ></script>
 	<link href="css/css.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
-	<div class="container">
-	<button class="b1">Ok</button>
-	<br/>
-	<div class="main-div">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
+	<div class="buttons" style="margin:auto;" > 
+		<button onclick="changeSize()"> Set no of boxes</button>
+		<button onclick="randomColorForEveryCell()"> Random Color for every cell</button>
+		<button onclick="setColor()"> Set Color</button>
+		<button onclick="randomColor()">Set Random Color</button>
+		<button onclick="dynamicContainer()">Change Container Dimensions</button>
 	</div>
+	<div class="container" style="margin:auto;" id="cont">
 	</div>
 </body>
 </html>

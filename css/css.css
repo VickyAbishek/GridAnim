@@ -1,24 +1,25 @@
-.square{
+.cell{
+	float: left;
+	border:none;
+}
+
+.container{
+
+	width: 500px;
+	height: 500px;
+	border: 2px solid blue;
+	margin:5px;
+	margin-top: 10px;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.buttons button{
 	
-	height: 108px;
-	width: 108px;
-	border: 2px solid black;
-	display: inline-block;
-}
-.col{
-background-color: green;
-}
-
-.main-div{
-	width: 324px;
-	height: 324px;
-	display: table; 	
-	border: 2px solid red;
-}
-
-.button{
-	color:blue;
-}
-.b1{
-	color: red;
+	padding: 10px 30px 30px 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	height: 30px;
 }
